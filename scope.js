@@ -17,3 +17,15 @@ a();
 // 객체가 선언되면 선언된 함수안에서만 접근이 가능하다.
 
 console.log("o : ",typeof(v),typeof(v_a),typeof(v_b));
+
+//서로 다른 함수에서 같은 변수를 선언할때 발생 하는 showding 
+
+shadowing_example=()=>{
+    var val=5;
+    console.log("F",val);
+    val++;
+}
+
+var val=0;
+shadowing_example();
+console.log("O",val);
