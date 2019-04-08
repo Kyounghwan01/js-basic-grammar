@@ -8,4 +8,9 @@
     <li>method,this</li>
     <li>scope,showding</li>
     <li>closer</li>
+    <li>reduce</li>
+    <li>filter</li>
+    <li>map</li>
+    <li>forEach</li>
+    <li>Math</li>
 </ul>
