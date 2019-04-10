@@ -45,14 +45,14 @@
     <li>
     배열 다루기 <br>
     
-    pop() : 배열의 맨 마지막 요소를 제거함<br>
-    shift() : 배열의 맨 처음 요소를 제거함<br>
-    push() : 배열의 맨 마지막 요소에 추가함<br>
-    unshift() : 배열의 처음 요소에 추가함<br>
-    reverse() : 배열의 앞뒤를 바꿈<br>
-    sort() : 배열의 값들을 조건에 따라 나열<br>
-    arr.concat(arr2) : 배열 합치기<br>
-    indexof(2) : 2가 있는 배열의 순서<br>
+    pop() : 배열의 맨 마지막 요소를 제거함
+    shift() : 배열의 맨 처음 요소를 제거함
+    push() : 배열의 맨 마지막 요소에 추가함
+    unshift() : 배열의 처음 요소에 추가함
+    reverse() : 배열의 앞뒤를 바꿈
+    sort() : 배열의 값들을 조건에 따라 나열
+    arr.concat(arr2) : 배열 합치기
+    indexof(2) : 2가 있는 배열의 순서
     lastindexof(2) : 2가 있는 뒤부터의 배열의 순서
    </li>
 </ul>
