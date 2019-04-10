@@ -35,4 +35,9 @@
         ex) var arr=[0,1,2]; <br>
             arr.splice(2,1) => arr=[0,2]
    </li>
+   <li>
+    정수화 : +num, -num, parseInt, parseFloat => 상황에 맞게 잘 쓸것!<br>
+    문자화 : n+""<br>
+    reverse() : 가진 문자열 반대로
+   </li>
 </ul>
