@@ -55,4 +55,14 @@
     indexof(2) : 2가 있는 배열의 순서
     lastindexof(2) : 2가 있는 뒤부터의 배열의 순서
    </li>
+   <li>
+    map : 함수를 통해 실행한 결과를 가지고 새로운 배열을 만들 때 사용합니다.
+    
+    array.map(callbackFunction(currentValue,index,array),thisArg)
+    ex) string으로 정의 된 배열내의 값들을 int값으로 바꾸고 싶다. 
+    var a = n.map(function(a){return parseInt(a);});<br>
+    var a = n.map(o=>o=parseInt(o));
+    
+   배열로 가져온 값에 대해 새로운 값을 만들어 보낸다. 그렇기 때문에 기존에 있던 배열은 바뀌지 않는다.
+   </li>
 </ul>
