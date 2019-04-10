@@ -16,5 +16,11 @@
     <li>apply : fun.apply([thisobj],[argarray])<br>
     fun : 가져다 쓸 메소드, thisobj(선택) : 현재 객체로 사용될 객체. argarray : 함수에 전달 될 "인수" 집합.<br>
         call은 인자 하나하나를 apply는 인자 리스트를 전달. <br> 참조 : https://beomy.tistory.com/4
+        ```
+        arr.splice(arr.indexOf(Math.min.apply(null, arr)), 1);
+        ```
+    </li>
+    <li>
+     indexOf :  arr.indexOf(a) : a값이 arr 안에 있는지 알고 싶을 때, 있다면 return을 값을 배열의 순번으로 알려준다. 
     </li>
 </ul>
