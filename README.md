@@ -36,12 +36,15 @@
             arr.splice(2,1) => arr=[0,2]
    </li>
    <li>
-    정수화 : +num, -num, parseInt, parseFloat => 상황에 맞게 잘 쓸것!<br>
-    문자화 : n+""<br>
+    정수화 : 
+    
+    +num, -num, parseInt, parseFloat => 상황에 맞게 잘 쓸것!
+    문자화 : n+""
     reverse() : 가진 문자열 반대로
    </li>
     <li>
     배열 다루기 <br>
+    
     pop() : 배열의 맨 마지막 요소를 제거함<br>
     shift() : 배열의 맨 처음 요소를 제거함<br>
     push() : 배열의 맨 마지막 요소에 추가함<br>
@@ -51,5 +54,5 @@
     arr.concat(arr2) : 배열 합치기<br>
     indexof(2) : 2가 있는 배열의 순서<br>
     lastindexof(2) : 2가 있는 뒤부터의 배열의 순서
-       </li>
+   </li>
 </ul>
