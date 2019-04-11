@@ -3,6 +3,14 @@
 
 <ul>
     <li>조건문(for, while, do while,for in)</li>
+    <li>for of : ex) for a of array -> array안에 있는 각 요소들을 a에 넣어준다.
+        
+    var s = "try hello world";
+    for (let a of check){
+        console.log('a) ===> a:try, a:hello, a:world 출력됨
+        }
+    
+   </li>
     <li>함수</li>
     <li>배열</li>
     <li>method,this</li>
