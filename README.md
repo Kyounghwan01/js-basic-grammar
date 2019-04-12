@@ -71,7 +71,10 @@
     ex) string으로 정의 된 배열내의 값들을 int값으로 바꾸고 싶다. 
     var a = n.map(function(a){return parseInt(a);});
     var a = n.map(o=>o=parseInt(o));
-    
-
    </li>
+   <li>
+    정규표현식 : 
+    
+    \d : 숫자를 모두 출력
+    
 </ul>
