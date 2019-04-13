@@ -22,6 +22,20 @@
     }} 
     console.log(kim.sum());
    </li>
+   </li>
+    <li>constructor(생성자 함수) : 객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.
+    
+    function Person(name,first,second,third){
+    this.name=name,
+    this.first=first,
+    this.second=second,
+    this.third=third,
+    this.sum=function(){
+        return this.first+this.second+this.third;
+        }
+    }
+    var kim=new Person('kim',10,20,30); ===> new를 붙여 객체를 생성!
+   </li>
     <li>함수</li>
     <li>배열</li>
     <li>method</li>
