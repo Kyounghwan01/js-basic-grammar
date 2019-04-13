@@ -3,7 +3,7 @@
 
 <ul>
     <li><strong>조건문</strong>(for, while, do while,for in)</li>
-    <li><strong>for of</strong> : ex) for a of array -> array안에 있는 각 요소들을 a에 넣어준다.
+    <li><strong>for of</strong> : <br> ex) for a of array -> array안에 있는 각 요소들을 a에 넣어준다.
         
     var s = "try hello world";
     for (let a of check){
@@ -11,7 +11,7 @@
         }
     
    </li>
-    <li><strong>this</strong>: this가 속한 메소드를 가진 객체를 가리킨다. 
+    <li><strong>this</strong>: <br>this가 속한 메소드를 가진 객체를 가리킨다. 
     
     var kim={
     name:'kim',
@@ -22,7 +22,7 @@
     }} 
     console.log(kim.sum());
    </li>
-   <li><strong>constructor(생성자 함수)</strong> : 객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.
+   <li><strong>constructor(생성자 함수)</strong> : <br>객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.(new)
     
     function Person(name,first,second,third){
     this.name=name,
@@ -34,6 +34,20 @@
         }
     }
     var kim=new Person('kim',10,20,30); ===> new를 붙여 객체를 생성!
+   </li>
+   <li><strong>class(생성자 함수)</strong> : <br>객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.(new 정의와 같은 역할)<br>
+    function 대신 class를 쓰고 내부 초기 값은 constructor이라는 문법을 사용하여 그 안에 정의한다. 
+    
+    class Person{
+    constructor(name,first,second){
+        this.name=name;
+        this.first=first;
+        this.second=second;
+        console.log('constructor');
+        }
+    }
+    var kim=new Person('kim',10,20);
+    
    </li>
    <li><strong>prototype</strong> <br>
     쓰는 이유 : 생성자 안에서 메소드(함수)가 들어가면 메소드가 바뀔 때마다 new를 통해 만들어진 객체에서 함수를 다시 정의해야 함.<br>
@@ -56,7 +70,7 @@
     <li>map</li>
     <li>forEach</li>
     <li>Math</li>
-    <li><strong>apply</strong> : fun.apply([thisobj],[argarray])<br>
+    <li><strong>apply</strong> : <br> fun.apply([thisobj],[argarray])<br>
     fun : 가져다 쓸 메소드, thisobj(선택) : 현재 객체로 사용될 객체. argarray : 함수에 전달 될 "인수" 집합.<br>
         call은 인자 하나하나를 apply는 인자 리스트를 전달. <br> 참조 : https://beomy.tistory.com/4
 
@@ -64,7 +78,7 @@
         
    </li>
     <li>
-     <strong>indexOf</strong> :  arr.indexOf(a) : a값이 arr 안에 있는지 알고 싶을 때, 있다면 return을 값을 배열의 순번으로 알려준다. 
+     <strong>indexOf</strong> : <br> arr.indexOf(a) : a값이 arr 안에 있는지 알고 싶을 때, 있다면 return을 값을 배열의 순번으로 알려준다. 
     </li>
     <li>
      <strong>slice</strong> : 배열 복사 : 
@@ -99,7 +113,7 @@
     lastindexof(2) : 2가 있는 뒤부터의 배열의 순서
    </li>
    <li>
-    <strong>map</strong> : 함수를 통해 실행한 결과를 가지고 새로운 배열을 만들 때 사용합니다.<br>
+    <strong>map</strong> :<br> 함수를 통해 실행한 결과를 가지고 새로운 배열을 만들 때 사용합니다.<br>
        배열로 가져온 값에 대해 새로운 값을 만들어 보낸다. 그렇기 때문에 기존에 있던 배열은 바뀌지 않는다.
     
     array.map(callbackFunction(currentValue,index,array),thisArg)
