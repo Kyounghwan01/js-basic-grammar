@@ -71,10 +71,10 @@
    
    <li><strong>super</strong> <br>
     쓰는 이유 : 상속을 받지만 부모 클래스의 메소드 또는 인자를 더하거나 빼고 싶을 때 사용<br>
-    super가 없다면 부모클래스의 인자를 다시 적어야함 즉, 상속의 의미가 없어짐  <br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp super가 없다면 부모클래스의 인자를 다시 적어야함 즉, 상속의 의미가 없어짐  <br>
     효과 :  중복 제거<br>
     사용법 : 부모클래스의 인자값을 가져올 경우 super(name,first,second)<br>
-    부모클래스 일체를 가져오면 super.sum();
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 부모클래스 일체를 가져오면 super.sum();
     
     class PersonPlus extends Person {
         constructor(name, first, second, third) {
