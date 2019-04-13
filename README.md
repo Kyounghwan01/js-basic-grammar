@@ -106,6 +106,19 @@
     lee.ave=function(){ return this.sum()/2 }
 
    </li>
+   <li><strong>call</strong> <br>
+    효과 : 상속 없이 하나의 함수를 정의하고 여러개의 객체에서 가져다 쓸 수 있다.<br>
+    사용법 : 함수명.call(객체이름,인자);
+    
+    var kim={name:"kim",first:10,second:20}
+    var lee={name:"lee",first:10,second:10}
+
+    function sum(prefix){
+        return prefix+(this.first+this.second);
+    }
+    console.log(sum.call(kim,'=>'));
+   </li>
+   
     <li>함수</li>
     <li>배열</li>
     <li>method</li>
