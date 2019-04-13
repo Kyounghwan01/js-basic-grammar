@@ -11,9 +11,20 @@
         }
     
    </li>
+    <li>this: this가 속한 메소드를 가진 객체를 가리킨다. 
+    
+    var kim={
+    name:'kim',
+    first:10,
+    second:20,
+    sum:function(){
+        return this.first+this.second;
+    }} 
+    console.log(kim.sum());
+   </li>
     <li>함수</li>
     <li>배열</li>
-    <li>method,this</li>
+    <li>method</li>
     <li>scope,showding</li>
     <li>closer</li>
     <li>reduce</li>
