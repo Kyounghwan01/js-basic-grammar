@@ -86,6 +86,26 @@
         }
     }
    </li>
+      <li><strong>__proto__ , Object.create()</strong> <br>
+    효과 : 객체가 객체를 상속한다.<br>
+    사용법 : __proto__ : 받을객체이름.__proto__=상속객체;<br>
+    Object.create() : 받을객체이름=Object.create(상속객체);
+    
+    var kim={ name:"kim",first:10,second:20, 
+        sum:function(){
+        return this.first+this.second;}}
+
+    var noh={name:'noh',first:10,second:20}
+    
+    noh.__proto__=kim;
+
+    var lee=Object.create(kim);
+    lee.name="lee";
+    lee.first=20;
+    lee.second=30;
+    lee.ave=function(){ return this.sum()/2 }
+
+   </li>
     <li>함수</li>
     <li>배열</li>
     <li>method</li>
