@@ -60,6 +60,14 @@
     kim.sum=function(){
     return "따로 정의 : "+(this.first+this.second);}
    </li>
+   
+   <li><strong>상속</strong> <br>
+    쓰는 이유 : class를 다르게 기능을 추가 하지만 내부 요소가 많이 중복되어 다시 정의하는게 메모리 손해를 야기 할 때 <br>
+    효과 : 코드 짧아짐, 메모리 절약<br>
+    사용법 : class명 뒤에 extends를 붙이고 그 뒤에 상속 받고 싶은 class명을 적는다. 
+    
+    class PersonPlus extends Person{}
+   </li>
     <li>함수</li>
     <li>배열</li>
     <li>method</li>
