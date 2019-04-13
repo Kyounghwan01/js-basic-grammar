@@ -118,6 +118,14 @@
     }
     console.log(sum.call(kim,'=>'));
    </li>   
+   <li><strong>bind</strong> <br>
+    효과 : call은 하나의 함수를 여러 객체에서 호출하나, bind는 하나의 함수에 대해 이 객체만 호출하겠다 지정함. <br>
+    &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp 그러나 그 함수는 귀속되지 않고 존재<br>
+    사용법 : 함수.bind(객체,인자);
+    
+    var kimsum=sum.bind(kim,"->");
+    console.log(kimsum());
+   </li>   
     <li>함수</li>
     <li>배열</li>
     <li>method</li>
