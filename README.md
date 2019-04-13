@@ -22,8 +22,7 @@
     }} 
     console.log(kim.sum());
    </li>
-   </li>
-    <li>constructor(생성자 함수) : 객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.
+   <li>constructor(생성자 함수) : 객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.
     
     function Person(name,first,second,third){
     this.name=name,
@@ -35,6 +34,17 @@
         }
     }
     var kim=new Person('kim',10,20,30); ===> new를 붙여 객체를 생성!
+   </li>
+   <li>prototype : <br>
+    쓰는 이유 : 생성자 안에서 메소드(함수)가 들어가면 메소드가 바뀔 때마다 new를 통해 만들어진 객체에서 함수를 다시 정의해야 함.<br>
+    효과 : 객체를 정의한 시점이 아닌 함수가 필요한 시점에서 사용하기에 메모리 절약, 생성된 모든 객체가 공통으로 사용가능, 객체마다 커스텀 가능
+    
+    Person.prototype.sum=function(){
+    return "prototype : "+(this.first+this.second); }
+    
+    하나의 객체만 함수 커스텀
+    kim.sum=function(){
+    return "따로 정의 : "+(this.first+this.second);}
    </li>
     <li>함수</li>
     <li>배열</li>
