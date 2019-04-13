@@ -117,8 +117,7 @@
         return prefix+(this.first+this.second);
     }
     console.log(sum.call(kim,'=>'));
-   </li>
-   
+   </li>   
     <li>함수</li>
     <li>배열</li>
     <li>method</li>
