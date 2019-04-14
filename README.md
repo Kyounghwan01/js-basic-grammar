@@ -22,6 +22,7 @@
     }} 
     console.log(kim.sum());
    </li>
+    
    <li><strong>constructor(생성자 함수)</strong> : <br>객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.(new)<br>
     객체를 생성하면 본 객체와, prototype 객체가 생성되는데, 객체 이름.constructor를 통해 객체의 출처를 추적할 수 있다. 
     
@@ -38,7 +39,7 @@
    </li>
    <li><strong>class(생성자 함수)</strong> : <br>객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.(new 정의와 같은 역할)<br>
     function 대신 class를 쓰고 내부 초기 값은 constructor이라는 문법을 사용하여 그 안에 정의한다. 
-    
+   
     class Person{
     constructor(name,first,second){
         this.name=name;
@@ -87,7 +88,24 @@
         }
     }
    </li>
-      <li><strong>__proto__ , Object.create()</strong> <br>
+   <li><strong>객체 생성 후 상속 원리</strong> <br>
+    Person 객체 생성시, 본 객체와 prototype 객체 2개가 생성 됨.<br>
+    Person 본 객체는 prototype을 통해 prototype 객체에 접근하고, prototype 객체는 constructor를 통해 본 객체로 접근 함.<br>
+    new를 통해 새로 생성된 객체는 __proto__를 통해 prototype 객체로 접근하며 그 안에 생성된 함수 사용하게 됨.<br>
+    모든 객체들은 __proto__를 가지고 다른 객체에 접근 가능 함    
+     
+    다른 객체 접근 예시 코드  
+    PersonPlus.prototype.__proto__=Person.prototype;
+    또는 
+    PersonPlus.prototype=Object.create(Person.prototype);
+    PersonPlus.prototype.constructor=PersonPlus;
+    를 통해 PersonPlus는 Person의 prototype의 함수를 사용함.
+<img src="https://user-images.githubusercontent.com/44187477/56094459-9b876280-5f0f-11e9-9a31-f1f3f5f530ba.png" width="40%" />
+<img src="https://user-images.githubusercontent.com/44187477/56094460-9b876280-5f0f-11e9-9537-9ed310d90bd7.png" width="40%" />
+    
+
+   </li>
+    <li><strong>__proto__ , Object.create()</strong> <br>
     효과 : 객체가 객체를 상속한다.<br>
     사용법 : __proto__ : 받을객체이름.__proto__=상속객체;<br>
     Object.create() : 받을객체이름=Object.create(상속객체);
