@@ -22,7 +22,8 @@
     }} 
     console.log(kim.sum());
    </li>
-   <li><strong>constructor(생성자 함수)</strong> : <br>객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.(new)
+   <li><strong>constructor(생성자 함수)</strong> : <br>객체에 대한 포맷을 정의하고, 생성자의 호출에 따라 자유롭게 변화한다.(new)<br>
+    객체를 생성하면 본 객체와, prototype 객체가 생성되는데, 객체 이름.constructor를 통해 객체의 출처를 추적할 수 있다. 
     
     function Person(name,first,second,third){
     this.name=name,
