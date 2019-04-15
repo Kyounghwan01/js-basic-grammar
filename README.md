@@ -163,8 +163,17 @@
         
    </li>
     <li>
-     <strong>indexOf</strong> : <br> arr.indexOf(a) : a값이 arr 안에 있는지 알고 싶을 때, 있다면 return을 값을 배열의 순번으로 알려준다. 
-    </li>
+     <strong>indexOf</strong> : 
+    
+    arr.indexOf(a) : a값이 arr 안에 있는지 알고 싶을 때, 있다면 return을 값을 배열의 순번으로 알려준다. 
+    
+   </li>
+    <li>
+     <strong>charAt()</strong> : 
+    
+    arr[0].charAt(2) : arr의 0번 배열의 요소의 2번 위치의 string 값을 return 해준다.
+    
+   </li>
     <li>
      <strong>slice</strong> : 배열 복사 : 
         
