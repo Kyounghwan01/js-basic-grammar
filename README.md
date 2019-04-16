@@ -2,7 +2,7 @@
 ## 자바스크립트 기본 문법에 대한 커밋
 
 <ul>
-    <li><strong>조건문</strong>(for, while, do while,for in)</li>
+    <li><strong>조건문</strong>(for, while, do while)</li>
     <li><strong>for of</strong> : <br> ex) for a of array -> array안에 있는 각 요소들을 a에 넣어준다.
         
     var s = "try hello world";
@@ -10,6 +10,17 @@
         console.log('a) ===> a:try, a:hello, a:world 출력됨
         }
     
+   </li>
+   <li><strong>for in</strong>: <br> 객체 내부 요소를 파악하기 위한 for in 구문
+    
+    var a={ age:30 ma:"femal"}
+    
+    for(var a_property in a){
+    console.log(a_property+":"+a[a_property]);
+    }
+    
+    //age:30
+      ma:femal
    </li>
     <li><strong>this</strong>: <br>this가 속한 메소드를 가진 객체를 가리킨다. 
     
