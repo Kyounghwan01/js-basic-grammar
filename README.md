@@ -156,6 +156,16 @@
     var kimsum=sum.bind(kim,"->");
     console.log(kimsum());
    </li>   
+   <li>
+     <strong>sort()</strong> : 
+    
+    숫자정렬
+    A.sort((p,c)=>p-c); ==> 오름차순 (음의 값이 되려면 c가 더 커야하므로 p<c인 값 오름차순이 됨)
+    A.sort((p,c)=>-p+c); ==> 내림차순 (음의 값을 만드는 방향으로 움직인다.)
+    object 정렬
+    exp.sort((a,b)=>a.name<b.name ? -1 : a.name>b.name?1:0); ==> (음이 참인 경우이니 b가 더 큰 값이 와야 함)    
+    
+   </li>
     <li>함수</li>
     <li>배열</li>
     <li>method</li>
