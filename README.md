@@ -172,7 +172,11 @@
     <li>scope,showding</li>
     <li>closer</li>
     <li>reduce</li>
-    <li>filter</li>
+    <li> <strong>filter()</strong> : 
+    
+    var arr = [15, 377, 395, 400, 1024, 3000]; 
+    var arr2 = arr.filter((n)=>n%5==0) ==> 5의 배수 걸러내는 함수 
+   </li>
     <li>map</li>
     <li>forEach</li>
     <li>Math</li>
