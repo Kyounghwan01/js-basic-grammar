@@ -22,6 +22,13 @@
     //age:30
       ma:femal
    </li>
+   <li><strong>forEach</strong>: <br> 배열 전체를 돌며 해당 배열의 요소에 작업 수행할 때
+    
+    var a=[1,2,3];
+    a.forEach((n,i,a)=>a[i]=n+1); ==>a=[2,3,4]
+    for문 대신 사용 가능 
+
+   </li>
     <li><strong>this</strong>: <br>this가 속한 메소드를 가진 객체를 가리킨다. 
     
     var kim={
@@ -177,7 +184,9 @@
     var arr = [15, 377, 395, 400, 1024, 3000]; 
     var arr2 = arr.filter((n)=>n%5==0) ==> 5의 배수 걸러내는 함수 
    </li>
-    <li>map</li>
+    <li><strong>map()</strong> : 
+
+   </li>
     <li>forEach</li>
     <li>Math</li>
     <li><strong>apply</strong> : <br> fun.apply([thisobj],[argarray])<br>
