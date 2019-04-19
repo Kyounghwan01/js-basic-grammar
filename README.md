@@ -22,7 +22,7 @@
     //age:30
       ma:femal
    </li>
-   <li><strong>forEach</strong>: <br> 배열 전체를 돌며 해당 배열의 요소에 작업 수행할 때
+   <li><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"><strong>forEach</strong></a>: <br> 배열 전체를 돌며 해당 배열의 요소에 작업 수행할 때
     
     var a=[1,2,3];
     a.forEach((n,i,a)=>a[i]=n+1); ==>a=[2,3,4]
@@ -178,13 +178,13 @@
     <li>method</li>
     <li>scope,showding</li>
     <li>closer</li>
-    <li>reduce</li>
-    <li> <strong>filter()</strong> : 
+    <li><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce"><strong>reduce</strong></a></li>
+    <li><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"><strong>filter()</strong></a> : 
     
     var arr = [15, 377, 395, 400, 1024, 3000]; 
     var arr2 = arr.filter((n)=>n%5==0) ==> 5의 배수 걸러내는 함수 
    </li>
-    <li><strong>map()</strong> : 
+    <li><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map"><strong>map()</strong></a> : 
 
    </li>
     <li>forEach</li>
