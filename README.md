@@ -187,7 +187,6 @@
     <li><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map"><strong>map()</strong></a> : 
 
    </li>
-    <li>forEach</li>
     <li>Math</li>
     <li><strong>apply</strong> : <br> fun.apply([thisobj],[argarray])<br>
     fun : 가져다 쓸 메소드, thisobj(선택) : 현재 객체로 사용될 객체. argarray : 함수에 전달 될 "인수" 집합.<br>
@@ -212,6 +211,7 @@
      <strong>slice</strong> : 배열 복사 : 
         
         ex) var arr2 = arr.slice();
+            var arr2 = arr.slice(2,3);   => arr의 배열의 2번~3번 index를 가져온다. (splice)와 구분해서 사용할 것!
         
    </li>
     <li>
