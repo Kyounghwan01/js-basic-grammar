@@ -278,8 +278,13 @@
     <strong>querySelector(a) / querySelectorAll(a) </strong> : <br>
     css 같이 id값을 js로 받아서 스타일을 바꾼다 <br>(a)의 개수가 중복일 경우 전자는 가장 첫번째 호출된 class/id 만 구현되며 후자는 전부 구현된다.<br>
     console.dir 를 통해 document,title 등 가진 element를 확인할 수 있다. <br>
+   </li>
+    <li>
+    <strong>addEventListener("관찰모션",함수)</strong> : <br>
+    스크린의 행동을 관찰하고 조건을 만족하면 뒤 함수를 실행 한다. <br>
     
-    목적 : 이를 통해 single page application을 만드는 것을 목적으로 한다.<br>
-    제한사항 : ajax를 쓸 경우 웹서버와 통신을 해야만 실행 가능 하다. <br>
+    function handleResize(){console.log("I have been resized");}
+    window.addEventListener("resize",handleResize);
+    //화면의 크기가 변경 될 때마다 위 콘솔이 실행된다. 
    </li>
 </ul>
