@@ -2,6 +2,10 @@
 ## 자바스크립트 기본 문법에 대한 커밋
 
 <ul>
+    <li><strong>배열 값 바꾸는 방법</strong>
+        1. 함수를 이용해 바꾼다.
+        2. array를 복사한다.
+    </li>
     <li><strong>조건문</strong>(for, while, do while)</li>
     <li><strong>for of</strong> : <br> ex) for a of array -> array안에 있는 각 요소들을 a에 넣어준다.
         
